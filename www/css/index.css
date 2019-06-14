@@ -1,0 +1,101 @@
+ ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        *{
+            box-sizing: border-box; 
+        }
+        body{
+            text-align: center;
+            background-image:url("img/image2.jpeg");
+            background-repeat: repeat-x;
+            background-attachment: scroll; 
+            background-color: antiquewhite;
+        }
+        h1{
+          text-align: center;
+           }
+        input{
+            width: 70%;
+            height: 25px;
+            float:none;
+            font-size: 25px;
+        }
+        button{
+            width: 30%;
+            height:25px;
+            margin-top: 25px;
+        }
+        #btn:hover{
+        background-color: aquamarine;
+            
+        }
+        ul{
+            padding-top: 30px;
+        }
+        #btn{
+            width: 15%;
+             height: 50%;
+            padding: 2.5px;
+            background-color: rosybrown;
+             margin-left: 0px;
+            border-radius: 2px;
+            transition: 0.5s;
+            font-size: 100%;
+            transition-property: width;
+            transition-duration: 2.5s;
+        }
+        #third{
+            margin: 0px;
+        }
+        ul li:hover{
+            background-color: moccasin;
+        }
+        h1{
+            font-family :sans-serif;
+            font-size: 30px;
+            color: darkred;
+        }
+        ul li{
+            cursor: pointer;
+            position: relative;
+            padding: 10px;
+            background-color: aqua;
+            font-family: cursive;
+            font-size: 20px;
+            transition: 0.5s;
+            
+            user-select: none;
+        }
+       
+        ul li:nth-child(odd){
+            background-color: aliceblue;
+        }
+        ul li.checked{
+            background-color: tan;
+            color: aquamarine;
+            text-decoration: line-through;
+            opacity: 2.5;
+        }
+        ul li.checked:before{
+            content: '';
+            position: absolute;
+            border-color: navy;
+            border-style: solid;
+            border-width: 0px 2px 2px 0px;
+            top: 10px;
+            left: 16px;
+            transform: rotate(45deg);
+            height: 15px;
+            width: 7px;
+        }
+        .close:hover{
+            
+            color: darksalmon;
+        }
+        .close{
+            position: absolute;
+            right: 0px;
+            padding: 12px 16px 12px 16px;
+            top=0px;
+        }
